@@ -8,6 +8,7 @@ import Header from "./components/Header"
 import Users from "./components/Users"
 import Feedback from "./components/Feedback"
 import Home from "./components/Home"
+import Data from "./components/Data/Data"
 import './App.css'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Route path="/" element={<Home />}/>
             <Route path="/users" element={<Users />}/>
             <Route path="/feedback" element={<Feedback />}/>
+            <Route path="/data" element={<Data />}/>
           </Routes>
         </Container>
         <footer className="bg-dark text-white text-center">

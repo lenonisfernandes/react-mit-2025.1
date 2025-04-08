@@ -35,6 +35,9 @@ const Header = () => {
                 <NavItem>
                     <NavLink tag={Link} to="/feedback">Feedback</NavLink>
                 </NavItem>
+                <NavItem>
+                    <NavLink tag={Link} to="/data">Data</NavLink>
+                </NavItem>
             </Nav>
         </Collapse>
     </Navbar>
